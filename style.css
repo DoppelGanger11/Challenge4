@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Eggshell);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+}
+
+.card {
+    max-width: 800px;
+    background-color: var(--White);
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.img-prin{
+    width: 720px;
+   border-radius: 20px;
+    
+}
+
+.img-prin img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+.titu{
+    font-family: "Young Serif", serif;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.prep-back{
+    background-color: var(--RoseWhite);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.titu2{
+    padding-left: 20px;
+    color: var(--DarkRaspberry);
+    margin-bottom: 0;
+}
+
+.titu3{
+    color: var(--DarkRaspberry);
+    font-family: "Young serif", serif;
+}
+
+.titu4{
+    color: var(--DarkRaspberry);
+}
+
+.titu5 {
+    color: var(--DarkRaspberry);
+}
+
+.p2{
+    color: var(--DarkRaspberry);
+    font-weight: 700;
+    position: relative;
+   
+}
+
+.nut-tab div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.lasthr{
+    margin: 0;
+    color: rgb(122, 122, 122);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
